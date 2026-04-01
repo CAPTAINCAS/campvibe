@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- Main Pages -->
+  <url>
+    <loc>https://campvibe.vercel.app/</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/videos</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/dating</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/chat</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/streaming</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/profile</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/auth</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Kenya Universities -->
+  <url>
+    <loc>https://campvibe.vercel.app/university/nairobi</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/university/kenyatta</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/university/moi</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/university/strathmore</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/university/jkuat</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- EPL Streaming -->
+  <url>
+    <loc>https://campvibe.vercel.app/epl</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/epl/manchester-united</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/epl/liverpool</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/epl/chelsea</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/epl/arsenal</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/epl/manchester-city</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Features -->
+  <url>
+    <loc>https://campvibe.vercel.app/features</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/about</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/contact</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/privacy</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/terms</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- Blog/News -->
+  <url>
+    <loc>https://campvibe.vercel.app/blog</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/blog/campus-life</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/blog/epl-news</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://campvibe.vercel.app/blog/dating-tips</loc>
+    <lastmod>2024-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+</urlset>
