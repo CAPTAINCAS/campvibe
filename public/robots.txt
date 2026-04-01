@@ -1,0 +1,45 @@
+# CampVibe - Robots.txt
+# https://campvibe.vercel.app
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://campvibe.vercel.app/sitemap.xml
+
+# Disallow admin pages from search engines
+Disallow: /admin
+Disallow: /admin/
+Disallow: /api/admin
+
+# Allow all other pages
+Allow: /
+Allow: /videos
+Allow: /dating
+Allow: /chat
+Allow: /streaming
+Allow: /profile
+Allow: /auth
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Google-specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bing-specific
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Yahoo-specific
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# DuckDuckGo-specific
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
