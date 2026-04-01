@@ -1,19 +1,34 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+interface Post {
+  id: string;
+  userId: string;
+  userName: string;
+  userAvatar: string;
+  university: string;
+  content: string;
+  image: string;
+  likes: number;
+  comments: number;
+  shares: number;
+  likedBy: string[];
+  createdAt: string;
+}
+
 // Mock posts database
-let posts = [
+let posts: Post[] = [
   {
     id: '1',
     userId: '2',
     userName: 'Brian Kamau',
     userAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop',
     university: 'University of Nairobi',
-    content: 'Just finished my final exams at UoN! 🎉 Time to celebrate with friends. Who\'s up for a campus party this weekend?',
+    content: 'Just finished my final exams at UoN! ðŸŽ‰ Time to celebrate with friends. Who\'s up for a campus party this weekend?',
     image: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&h=400&fit=crop',
     likes: 234,
     comments: 45,
     shares: 12,
-    likedBy: [],
+    likedBy: [] as string[],
     createdAt: new Date(Date.now() - 2 * 60 * 60 * 1000).toISOString(),
   },
   {
@@ -22,12 +37,12 @@ let posts = [
     userName: 'Amina Wanjiku',
     userAvatar: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=100&h=100&fit=crop',
     university: 'Kenyatta University',
-    content: 'Working on an AI project at KU that can predict campus events attendance. The future is here! 🤖',
+    content: 'Working on an AI project at KU that can predict campus events attendance. The future is here! ðŸ¤–',
     image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop',
     likes: 567,
     comments: 89,
     shares: 34,
-    likedBy: [],
+    likedBy: [] as string[],
     createdAt: new Date(Date.now() - 4 * 60 * 60 * 1000).toISOString(),
   },
   {
@@ -36,12 +51,12 @@ let posts = [
     userName: 'Grace Muthoni',
     userAvatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop',
     university: 'Moi University',
-    content: 'Campus sunrise at Moi University this morning was absolutely breathtaking! 🌅 Nature never fails to amaze me.',
+    content: 'Campus sunrise at Moi University this morning was absolutely breathtaking! ðŸŒ… Nature never fails to amaze me.',
     image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=400&fit=crop',
     likes: 892,
     comments: 67,
     shares: 45,
-    likedBy: [],
+    likedBy: [] as string[],
     createdAt: new Date(Date.now() - 6 * 60 * 60 * 1000).toISOString(),
   },
 ];
@@ -100,7 +115,7 @@ export async function POST(request: NextRequest) {
       likes: 0,
       comments: 0,
       shares: 0,
-      likedBy: [],
+      likedBy: [] as string[],
       createdAt: new Date().toISOString(),
     };
 
